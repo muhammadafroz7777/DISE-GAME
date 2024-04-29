@@ -14,6 +14,7 @@ h1 {
     background-image: url(./images/crox-call-of-duty.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
 
   #box2{
@@ -44,6 +45,12 @@ h1 {
     /* border: 1px solid violet; */
     font-size: 40px;
     cursor: pointer;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+  transition: 0.2s ease-in-out;
+  
+   
+
+    
   
   
 
@@ -52,6 +59,12 @@ h1 {
   .box:hover {
     background-color: violet;
     color: white;
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
+    
+
+    
   }
   
   .info_box {
@@ -61,6 +74,14 @@ h1 {
     border: 1px solid violet;
     margin-top: 20px;
     padding: 10px;
+    background-color: violet;
+    color: #000000;
+    transition: 0.2s ease-in-out;
+  }
+
+  .info_box:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(1.04);
   }
   
   .msg {
