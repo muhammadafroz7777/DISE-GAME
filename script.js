@@ -105,9 +105,11 @@ function checkResult() {
   if(count == 0){
   if(win >= 3){
 msg.innerText = "Congratulation You Win This Price";
+msg.style.color = "Green";
 } 
 else{
   msg.innerText = "Sorry You Loss this Price Try Again";
+  msg.style.color = "Red";
 }
 count = 10;
 win = 0;
@@ -118,5 +120,6 @@ loss_html = loss;
 }
 }
 // --------------------------
+
 
 
