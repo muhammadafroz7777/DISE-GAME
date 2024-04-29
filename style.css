@@ -9,20 +9,46 @@ h1 {
     max-width: 600px;
     margin: 0px auto;
   }
+
+  #box1{
+    background-image: url(./images/crox-call-of-duty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #box2{
+    background-image: url(./images/crox-fortnite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
+  #box3{
+    background-image: url(./images/crox-pubg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #box4{
+    background-image: url(./images/crox-reaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
   .box {
-    height: 90px;
-    width: 90px;
+    height: 200px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
     font-size: 40px;
     cursor: pointer;
   
   
 
   }
+
   .box:hover {
     background-color: violet;
     color: white;

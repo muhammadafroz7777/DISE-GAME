@@ -76,7 +76,7 @@ var loss = 0;
 //  console.log(count, win,loss);
 
 function tryMyLuck(userNumber) {
-  var randomNumber = Math.random() * 6;
+  var randomNumber = Math.random() * 4;
   var ciel = Math.ceil(randomNumber);
   console.log(ciel);
 user_Number.innerText = userNumber;
